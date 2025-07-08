@@ -11,6 +11,8 @@ public class day1 {
 	@AfterSuite
 	public void AfterSuit() {
 		System.out.println("AfterSuit");
+		System.out.println("GitDemo");
+		System.out.println("Deepak ");
 	}
 	
 	@BeforeMethod
