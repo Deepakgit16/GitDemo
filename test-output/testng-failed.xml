@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Loan Department]">
+  <parameter name="URL" value="https://rahulshettyacademy.com/AutomationPractice/"/>
+  <test thread-count="5" name="Personal loan(failed)">
+    <classes>
+      <class name="test.day3">
+        <methods>
+          <include name="parametr"/>
+          <include name="AfteClass"/>
+          <include name="BeforClass"/>
+          <include name="BefoeSuit"/>
+        </methods>
+      </class> <!-- test.day3 -->
+    </classes>
+  </test> <!-- Personal loan(failed) -->
+  <test thread-count="5" name="car loan(failed)">
+    <classes>
+      <class name="test.day3">
+        <methods>
+          <include name="parametr"/>
+          <include name="AfteClass"/>
+          <include name="BeforClass"/>
+          <include name="BefoeSuit"/>
+        </methods>
+      </class> <!-- test.day3 -->
+    </classes>
+  </test> <!-- car loan(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->
