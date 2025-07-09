@@ -22,6 +22,10 @@ public class day1 {
 	public void BeforMethod() {
 		System.out.println("BeforMethod execute before every method in a class scope");
 	}
+	@BeforeMethod
+	public void BeforMethwod() {
+		System.out.println("BeforMethodqwqw execute before every method in a class scope");
+	}
 	
 	@AfterMethod
 	public void AfteMethod() {

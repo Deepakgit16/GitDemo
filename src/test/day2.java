@@ -10,6 +10,11 @@ public class day2 {
 		System.out.println("good");
 	}
 	
+	@Test
+	public void ploaeqn() {
+		System.out.println("goewrod");
+	}
+	
 	@BeforeTest
 	public void prerequisite() {
 		System.out.println("prerequisite");
